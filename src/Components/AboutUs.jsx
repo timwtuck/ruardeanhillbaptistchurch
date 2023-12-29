@@ -3,9 +3,9 @@ import image from "../images/ruardean-church.jpg";
 
 const AboutUs = () => {
   return (
-    <div className="flex flex-row p-10 bg-light">
+    <div className="flex sm:flex-row p-10 bg-light flex-col items-center">
       <div className="flex flex-col p-5 text-dark text-left">
-        <Title title="About us" className="text-dark" />
+        <Title title="About us" className="text-dark sm: text-center" />
         <p className="mt-5">Where are some people in the forest</p>
         <p className="mt-5">
           I have more to say but I should ask someone else first

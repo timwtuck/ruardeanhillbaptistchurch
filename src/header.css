@@ -92,3 +92,19 @@
     height: 125px;
   } */
 }
+
+@media only screen and (max-width: 500px) {
+  .logo-main {
+    font-size: 1.5em;
+    margin-top: 0px;
+  }
+
+  .logo-sub {
+    margin-top: -5px;
+    font-size: 1.25em;
+  }
+
+  .header button {
+    font-size: 2em;
+  }
+}
